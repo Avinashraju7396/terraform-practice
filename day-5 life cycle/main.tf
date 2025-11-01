@@ -10,12 +10,13 @@ resource "aws_instance" "name" {
   lifecycle {
     create_before_destroy = true  // # create new instance before destroying old one
   }
+    lifecycle {
+    ignore_changes = [instance_type] // # ignore instance_type changes on apply
+  }
+   
    lifecycle {
-    ignore_changes        = [instance_type] // # ignore instance_type changes on apply
-  }
-   lifecycle {
-    prevent_destroy       = true   //# prevents deletion via `terraform destroy` or accidental deletes
-  }
-  }
+    prevent_destroy = true   //# prevents deletion via `terraform destroy` or accidental deletes
   
+   }
+}
 
