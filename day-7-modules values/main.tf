@@ -3,3 +3,10 @@ module "name" {
    ami_id = "ami-07860a2d7eb515d9a"
    type = "t3.micro"
 }
+
+
+
+
+
+#if we want any code from another folder we use module in terraform 
+  # reusable
