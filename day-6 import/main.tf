@@ -15,3 +15,7 @@ resource "aws_s3_bucket" "name" {
 }
 #terraform import aws_s3_bucket.name avinash0123   here change bucket name that already exist
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9e777f38517edbbb3cac0db95bb1ace1d76ea24d
