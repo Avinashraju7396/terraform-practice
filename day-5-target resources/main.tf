@@ -13,3 +13,4 @@ resource "aws_vpc" "name" {
 #   target-resources
 # 1-single resources-->terraform <plan(or)apply(or)destroy> -target=aws_<resources name>.name
 #2-mulit resources--> terraform <plan(or)apply(or)destroy> -target=aws_<resources name>.name<space>-target=aws_<another_resources name>.name
+#$ terraform plan -target=aws_s3_bucket.name -target=aws_instance" "name"-edit
