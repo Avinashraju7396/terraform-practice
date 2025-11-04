@@ -64,7 +64,7 @@ resource "aws_iam_role_policy_attachment" "rds_monitoring_attach" {
 #   }
 # }
 
-
+#----------------------------------or--------------------------------------------#
 
 
 ####### with data source ###########
