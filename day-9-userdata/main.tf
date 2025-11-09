@@ -1,4 +1,3 @@
-
 resource "aws_instance" "name" {
   ami                         = "ami-0157af9aea2eef346" # Amazon Linux 2
   instance_type               = "t2.micro"              # <- changed from t3.micro
