@@ -2,7 +2,7 @@
 # ✅ Import existing SSH public key from your system
 resource "aws_key_pair" "example" {
   key_name   = "task"
-  public_key = file("C:/Users/DELL/.ssh/id_ed25519.pub")   # <-- UPDATE this path
+  public_key = file("C:/Users/HP/.ssh/id_ed25519.pub")   # <-- UPDATE this path
 }
 
 resource "aws_instance" "server" {
