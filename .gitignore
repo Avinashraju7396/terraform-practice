@@ -2,9 +2,12 @@
 *.tfstate
 *.tfstate.backup
 
-# Terraform directories
+# Terraform variable files
+*.tfvars
+
+# Terraform cache directories
 .terraform/
 
-# Variable files with secrets
-*.tfvars
+# Any Terraform provider binaries
+*.exe
 
